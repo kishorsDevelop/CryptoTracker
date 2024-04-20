@@ -49,7 +49,7 @@ python scrapper.py
 npm start
 ```
 
-and now go to http://127.0.0.1:8000.
+and now go to http://127.0.0.1:3000.
 
 ## Features
 
