@@ -9,7 +9,7 @@ def handle():
         print(data)
         response = requests.post('http://127.0.0.1:8000/update_data/', json=data)
         print('Data sent to Django:', response.status_code)
-        time.sleep(3)
+        time.sleep(5)
 
 def scrape_data():
     url = 'https://coinmarketcap.com'
